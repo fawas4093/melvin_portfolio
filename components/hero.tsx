@@ -96,13 +96,13 @@ export default function Hero() {
 			<div
 				className="flex flex-col justify-start w-full"
 				ref={containerRef}>
-				<h1 className="text-[24px] xm:text-lg sm:text-lg text-[#9FE870] font-normal leading-tight tracking-tight">
+				<h1 className="text-[24px] xm:text-lg sm:text-lg text-light font-normal leading-tight tracking-tight">
 					{t("welcome-to-the-world-of")}
 				</h1>
 				<span
-					className="flex text-[250px] text-[#9FE870] font-bold leading-[200px] sm:leading-[75px] xm:leading-[75px] tracking-tighter mx-auto whitespace-nowrap text-center mt-20 xm:mt-0 sm:mt-0"
+					className="flex text-[250px] text-light font-bold leading-[200px] sm:leading-[75px] xm:leading-[75px] tracking-tighter mx-auto whitespace-nowrap text-center mt-20 xm:mt-0 sm:mt-0"
 					ref={textRef}>
-					{"SupaDupa".split("").map((item: string, i: number) => (
+					{"melvin".split("").map((item: string, i: number) => (
 						<motion.p
 							initial={{ y: "100%" }}
 							whileInView={{ y: 0 }}
@@ -161,7 +161,7 @@ export default function Hero() {
 					whileInView={{
 						borderTopWidth: 1,
 						width: "100%",
-						borderColor: "#9FE870",
+						borderColor: "#B0B0B0",
 						origin: "left",
 					}}
 					transition={{
@@ -180,22 +180,22 @@ export default function Hero() {
 							height={20}
 							className="h-fit"
 						/>
-						<h1 className="whitespace-nowrap text-[20px] uppercase text-[#9FE870] font-normal leading-tight tracking-tight rotate-90 absolute -bottom-5 -left-[73px]">
+					<h1 className="whitespace-nowrap text-[20px] uppercase text-light font-normal leading-tight tracking-tight rotate-90 absolute -bottom-5 -left-[73px]">
 							{t("start")}
 						</h1>
 					</div>
 					<div className="flex flex-col gap-5">
-						<h1
-							className="text-[24px] xm:text-lg sm:text-lg text-[#9FE870] font-normal leading-tight tracking-tight"
+					<h1
+						className="text-[24px] xm:text-lg sm:text-lg text-light font-normal leading-tight tracking-tight"
 							dangerouslySetInnerHTML={{ __html: t("where-the-journey") }}
 						/>
 						<div className="w-fit flex flex-col gap-2">
-							<Link
-								className="text-[18px] text-secondary font-normal leading-tight tracking-tight"
+						<Link
+							className="text-[18px] text-light font-normal leading-tight tracking-tight"
 								href="/">
 								{t("lets-build")}
 							</Link>
-							<div className="w-full h-[1px] rounded-lg bg-secondary" />
+						<div className="w-full h-[1px] rounded-lg bg-soft" />
 						</div>
 					</div>
 				</div>

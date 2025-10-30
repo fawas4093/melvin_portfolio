@@ -9,12 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#163300",
-        secondary: "#FFC091",
-        "dark-subtle": "rgba(255, 255, 255, 0.5)",
-        "light-subtle": "rgba(39, 39, 39, 0.5)",
-        "highlight-dark": "#ffc220",
-        "highlight-light": "#ffc220",
+        // Core grayscale palette
+        charcoal: "#121212",
+        light: "#E0E0E0",
+        medium: "#B0B0B0",
+        dark: "#444444",
+        soft: "#888888",
+
+        // Semantic aliases used across the app
+        background: "#121212",
+        secondary: "#E0E0E0",
+        "dark-subtle": "rgba(224, 224, 224, 0.5)",
+        "light-subtle": "rgba(18, 18, 18, 0.5)",
+        "highlight-dark": "#E0E0E0",
+        "highlight-light": "#E0E0E0",
       }
     },
     screens: {

@@ -43,16 +43,16 @@ export default function Navbar() {
 					</Link>
 				</div>
 				<div className="flex gap-x-4">
-					<button
-						className="text-[17px] font-semibold uppercase text-[#260A2F] bg-secondary rounded-full leading-tight tracking-tight px-6 py-3 xm:py-2 sm:py-2 xm:px-4 sm:px-4"
+				<button
+					className="text-[17px] font-semibold uppercase text-charcoal bg-secondary rounded-full leading-tight tracking-tight px-6 py-3 xm:py-2 sm:py-2 xm:px-4 sm:px-4"
 						onClick={onSelectChange}
 						disabled={isPending}>
 						{currentLocale === "nl" ? "en" : "nl"}
 					</button>
 
 					<div className="relative">
-						<button
-							className="flex gap-2 items-center text-[17px] font-semibold capitalize text-[#260A2F] bg-secondary rounded-full leading-tight tracking-tight px-4 py-3 xm:py-2 sm:py-2 xm:px-4 sm:px-4 group"
+					<button
+						className="flex gap-2 items-center text-[17px] font-semibold capitalize text-charcoal bg-secondary rounded-full leading-tight tracking-tight px-4 py-3 xm:py-2 sm:py-2 xm:px-4 sm:px-4 group"
 							onClick={() => setActive(!active)}>
 							<Image
 								src={blackCircle}
@@ -84,7 +84,7 @@ export default function Navbar() {
 											<Link
 												key={link.id}
 												href={`#${link.href}`}
-												className="text-[16px] font-semibold capitalize text-[#260A2F] bg-secondary leading-tight tracking-tight"
+												className="text-[16px] font-semibold capitalize text-charcoal bg-secondary leading-tight tracking-tight"
 												onClick={() => setActive(!active)}>
 												{t(link.href)}
 											</Link>
