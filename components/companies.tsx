@@ -6,14 +6,14 @@ export default function Companies() {
 	return (
 		<>
 			<Marquee
-				className="text-[#ffeb69]"
+				className="text-[#ffffff]"
 				titile1="Let's build"
 				titile2="good companies"
 			/>
 			<div className="w-full py-20 flex justify-center items-center padding-x">
 				<div className="w-[70%] xm:w-full sm:w-full flex flex-col gap-10">
 					<div>
-						<h1 className="text-[70px] xm:text-[35px] sm:text-[40px] xm:leading-none sm:leading-none text-[#ffeb69] font-bold leading-[60px] tracking-tight">
+						<h1 className="text-[70px] xm:text-[35px] sm:text-[40px] xm:leading-none sm:leading-none text-light font-bold leading-[60px] tracking-tight">
 							{t("companiesHeading")}
 						</h1>
 					</div>

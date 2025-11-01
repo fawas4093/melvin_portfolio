@@ -43,12 +43,12 @@ export default function Navbar() {
 					</Link>
 				</div>
 				<div className="flex gap-x-4">
-				<button
+				{/* <button
 					className="text-[17px] font-semibold uppercase text-charcoal bg-secondary rounded-full leading-tight tracking-tight px-6 py-3 xm:py-2 sm:py-2 xm:px-4 sm:px-4"
 						onClick={onSelectChange}
 						disabled={isPending}>
 						{currentLocale === "nl" ? "en" : "nl"}
-					</button>
+					</button> */}
 
 					<div className="relative">
 					<button

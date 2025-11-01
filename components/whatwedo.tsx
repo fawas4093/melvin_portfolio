@@ -10,7 +10,7 @@ export default function Whatwedo() {
 	return (
 		<div
 			id="what-we-do"
-			className="w-full py-20 bg-[#FFD7EF] relative">
+			className="w-full py-20 bg-[#dfdfdf] relative">
 			<motion.div
 				animate={{ rotate: [-360, 360] }}
 				transition={{
@@ -28,9 +28,9 @@ export default function Whatwedo() {
 				/>
 			</motion.div>
 			<Marquee
-				className="text-[#260A2F]"
-				titile1="What we do"
-				titile2="What we do"
+				className="text-[#070209]"
+				titile1="What I do"
+				titile2="What I do"
 			/>
 			<div className="w-full flex items-center justify-center">
 				<div className="w-[80%] xm:w-full sm:w-full xm:padding-x sm:padding-x">

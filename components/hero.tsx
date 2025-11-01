@@ -132,7 +132,7 @@ export default function Hero() {
 							ease: "easeInOut",
 						}}
 						viewport={{ once: true }}
-						src="./heroVideo.mp4"
+						src="./melvinVideo.mp4"
 						autoPlay
 						loop
 						muted
